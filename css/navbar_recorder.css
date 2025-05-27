@@ -1,0 +1,52 @@
+/* Navbar Styles */
+        .navbar {
+            background-color: var(--dark-color);
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem;
+            color: white;
+        }
+        
+        .navbar-left, .navbar-right {
+            display: flex;
+        }
+        
+        .navbar a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .navbar a:hover, .navbar a.active {
+            background-color: var(--primary-color);
+        }
+        
+        .dropdown {
+            position: relative;
+        }
+        
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: var(--dark-color);
+            min-width: 200px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-menu a {
+            padding: 0.75rem 1rem;
+        }
+        
+        .dropdown-menu a:hover {
+            background-color: var(--primary-color);
+        }
+        
+        .dropdown-menu.show {
+            display: block;
+        }
+        
+        .dropdown-menu-right {
+            right: 0;
+        }

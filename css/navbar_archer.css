@@ -1,0 +1,42 @@
+ /* Navbar Styles */
+        .archer-navbar {
+            background-color: var(--dark-color);
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem;
+            color: white;
+        }
+        
+        .navbar-left, .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        
+        .archer-navbar a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .archer-navbar a:hover, .archer-navbar a.active {
+            background-color: var(--primary-color);
+        }
+        
+        .archer-info {
+            display: flex;
+            align-items: center;
+        }
+        
+        .archer-name {
+            padding: 1rem;
+            font-weight: 500;
+        }
+        
+        .switch-archer {
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem !important;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            margin-left: 0.5rem;
+        }
