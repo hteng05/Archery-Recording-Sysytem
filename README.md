@@ -12,6 +12,14 @@ The system handles complex data structures including archer categories (based on
 
 ---
 
+## Database Structure
+
+The database follows a fully normalized relational schema designed to support archery score recording, round definitions, competition tracking, and championship ranking. The schema includes tables for archers, rounds, scores, competitions, categories, and historical data such as equivalent rounds and personal bests.
+
+Below is the Entity Relationship Diagram (ERD) illustrating the core structure:
+
+![ERD – Archery Score Recording System](images/erd_diagram.png)
+
 ## Features
 
 ### For Archers
