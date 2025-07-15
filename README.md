@@ -66,7 +66,7 @@ To run this system locally, follow these steps:
 - Clone or download this repository:
   
   ```bash
-  git clone https://github.com/hteng05/Archery-Recording-Sysytem.git
+  git clone https://github.com/hteng05/Archery-Recording-System.git
   ```
 
 - Move the project folder into the `htdocs` directory (for XAMPP) or the appropriate web root for MAMP.
