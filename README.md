@@ -66,12 +66,12 @@ To run this system locally, follow these steps:
 ### 3. Set Up the Database
 
 - Open **phpMyAdmin** (usually at `http://localhost/phpmyadmin`)
-- Create a new database (e.g. `archery_db`)
-- Import the SQL schema from the provided `.sql` file (located in the repository if included)
+- Create a new database (named `archery_db`)
+- Import the SQL schema from the provided `database.sql` file (located in the repository)
 
 ### 4. Configure Database Connection
 
-- Open the project’s PHP config file (e.g., `config.php`)  
+- Open the project’s PHP config file (`settings.php` in `includes` folder)  
 - Update the host, username, password, and database name as needed:
 
   ```php
@@ -109,9 +109,9 @@ This project addresses the key learning outcomes of the COS20031 unit:
 
 This project was collaboratively developed by:
 
-- **Duong Ha Tien Le**  
-- **Uyen Giang Thai**  
-- **Hoa Phat Thai**
+- **Duong Ha Tien Le (@hteng05)** – responsible for the complete website implementation  
+- **Uyen Giang Thai (@gangisgiang)** – responsible for the complete database design
+- **Hoa Phat Thai** -  responsible for documentations on Confluence
 
 Each team member contributed to requirements analysis, database design, system implementation, and testing.
 
@@ -119,4 +119,4 @@ Each team member contributed to requirements analysis, database design, system i
 
 ## License
 
-This repository is provided for academic purposes only. Scoring formats and round definitions are derived from public data published by Archery Australia.
+This repository is provided for academic purposes only. Scoring formats and round definitions are derived from public data published by Archery Australia. The reference can be found in project_brief.pdf file.
